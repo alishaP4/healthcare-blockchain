@@ -28,7 +28,7 @@ type EMR struct{
 	ID   	int 	//EMR ID
 	Owner	string
 	Adder 	string
-	Type 	int   	//1 for 病历记录 & 2 for 检测报告
+	Type 	int   	//1 for medical record & 2 for test report
 	Content string 	//内容
 	Date 	string 	//日期
 	AuthorityList map[string]int 	//授权阅读的人员列表
